@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_14ho1y0" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.3.1">
+  <bpmn:process id="AsyncWebAPI" isExecutable="true">
+    <bpmn:sequenceFlow id="SequenceFlow_0vguy9q" sourceRef="AsyncActivityRequestedStartEvent" targetRef="ExecuteAsyncTaskTask" />
+    <bpmn:exclusiveGateway id="IsCallbackSpecifiedGateway" name="Is Callback Specified">
+      <bpmn:incoming>SequenceFlow_146nz6k</bpmn:incoming>
+      <bpmn:outgoing>YesSequenceFlow</bpmn:outgoing>
+      <bpmn:outgoing>NoSequenceFlow</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_146nz6k" sourceRef="ExecuteAsyncTaskTask" targetRef="IsCallbackSpecifiedGateway" />
+    <bpmn:sequenceFlow id="YesSequenceFlow" name="yes" sourceRef="IsCallbackSpecifiedGateway" targetRef="IssueCallbackTask">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${CallbackURL != ""}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:endEvent id="AsyncActivityCompletedEndEvent" name="AsyncActivity Completed">
+      <bpmn:incoming>NoSequenceFlow</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0jhaluu</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="NoSequenceFlow" name="no" sourceRef="IsCallbackSpecifiedGateway" targetRef="AsyncActivityCompletedEndEvent">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${CallbackURL == ""}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="SequenceFlow_0jhaluu" sourceRef="IssueCallbackTask" targetRef="AsyncActivityCompletedEndEvent" />
+    <bpmn:serviceTask id="IssueCallbackTask" name="Issue Callback">
+      <bpmn:extensionElements>
+        <camunda:connector>
+          <camunda:inputOutput>
+            <camunda:inputParameter name="url">${CallbackURL}</camunda:inputParameter>
+            <camunda:inputParameter name="method">POST</camunda:inputParameter>
+            <camunda:inputParameter name="Body">${TaskResponse}</camunda:inputParameter>
+          </camunda:inputOutput>
+          <camunda:connectorId>http-connector</camunda:connectorId>
+        </camunda:connector>
+      </bpmn:extensionElements>
+      <bpmn:incoming>YesSequenceFlow</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0jhaluu</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ExecuteAsyncTaskTask" name="Execute Async Task" camunda:asyncBefore="true" camunda:asyncAfter="true" camunda:type="external" camunda:topic="${ExternalTaskName}">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:outputParameter name="TaskResponse" />
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0vguy9q</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_146nz6k</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:startEvent id="AsyncActivityRequestedStartEvent" name="AsyncActivityRequested">
+      <bpmn:outgoing>SequenceFlow_0vguy9q</bpmn:outgoing>
+    </bpmn:startEvent>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="AsyncWebAPI">
+      <bpmndi:BPMNEdge id="SequenceFlow_0vguy9q_di" bpmnElement="SequenceFlow_0vguy9q">
+        <di:waypoint x="215" y="177" />
+        <di:waypoint x="270" y="177" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ExclusiveGateway_0nxslh7_di" bpmnElement="IsCallbackSpecifiedGateway" isMarkerVisible="true">
+        <dc:Bounds x="425" y="152" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="423" y="115" width="55" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_146nz6k_di" bpmnElement="SequenceFlow_146nz6k">
+        <di:waypoint x="370" y="177" />
+        <di:waypoint x="425" y="177" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0ibzqyi_di" bpmnElement="YesSequenceFlow">
+        <di:waypoint x="475" y="177" />
+        <di:waypoint x="560" y="177" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="509" y="159" width="17" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_0jt4jcv_di" bpmnElement="AsyncActivityCompletedEndEvent">
+        <dc:Bounds x="592" y="282" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="578" y="325" width="65" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0utce0w_di" bpmnElement="NoSequenceFlow">
+        <di:waypoint x="450" y="202" />
+        <di:waypoint x="450" y="300" />
+        <di:waypoint x="592" y="300" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="459" y="248" width="13" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0jhaluu_di" bpmnElement="SequenceFlow_0jhaluu">
+        <di:waypoint x="610" y="217" />
+        <di:waypoint x="610" y="282" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1rofi63_di" bpmnElement="IssueCallbackTask">
+        <dc:Bounds x="560" y="137" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_0ooc8j7_di" bpmnElement="ExecuteAsyncTaskTask">
+        <dc:Bounds x="270" y="137" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_0iivh9i_di" bpmnElement="AsyncActivityRequestedStartEvent">
+        <dc:Bounds x="179" y="159" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="156" y="202" width="85" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

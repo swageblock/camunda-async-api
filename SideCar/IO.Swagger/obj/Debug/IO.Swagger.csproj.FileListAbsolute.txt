@@ -1,0 +1,11 @@
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\obj\Debug\IO.Swagger.csprojAssemblyReference.cache
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\bin\Debug\IO.Swagger.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\bin\Debug\IO.Swagger.pdb
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\bin\Debug\JsonSubTypes.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\bin\Debug\Newtonsoft.Json.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\bin\Debug\RestSharp.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\bin\Debug\RestSharp.xml
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\bin\Debug\Newtonsoft.Json.xml
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\obj\Debug\IO.Swagger.csproj.CopyComplete
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\obj\Debug\IO.Swagger.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\IO.Swagger\obj\Debug\IO.Swagger.pdb

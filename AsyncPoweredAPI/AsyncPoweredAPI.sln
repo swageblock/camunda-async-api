@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncPoweredAPI", "AsyncPoweredAPI\AsyncPoweredAPI.csproj", "{9FEE7783-CB26-4315-9A77-D1E8FD87151E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FEE7783-CB26-4315-9A77-D1E8FD87151E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEE7783-CB26-4315-9A77-D1E8FD87151E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEE7783-CB26-4315-9A77-D1E8FD87151E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEE7783-CB26-4315-9A77-D1E8FD87151E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AB80F7E-AE64-4C22-848A-656CE17EA921}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.p.vu.local:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AsyncPoweredAPI\\AsyncPoweredAPI.csproj
+		SccProjectName1 = AsyncPoweredAPI
+		SccLocalPath1 = AsyncPoweredAPI
+	EndGlobalSection
+EndGlobal

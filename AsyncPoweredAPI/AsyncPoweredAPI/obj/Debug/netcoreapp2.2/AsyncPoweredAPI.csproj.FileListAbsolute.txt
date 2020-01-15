@@ -1,0 +1,32 @@
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.deps.json
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.runtimeconfig.json
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.runtimeconfig.dev.json
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.dll
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.RazorAssemblyInfo.cache
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.RazorAssemblyInfo.cs
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.AssemblyInfoInputs.cache
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.AssemblyInfo.cs
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.RazorTargetAssemblyInfo.cache
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.pdb
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.csprojAssemblyReference.cache
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.dll
+C:\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.pdb
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.deps.json
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.runtimeconfig.json
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.runtimeconfig.dev.json
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.dll
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\bin\Debug\netcoreapp2.2\AsyncPoweredAPI.pdb
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.csprojAssemblyReference.cache
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.RazorAssemblyInfo.cache
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.RazorAssemblyInfo.cs
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.AssemblyInfoInputs.cache
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.AssemblyInfo.cs
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.RazorTargetAssemblyInfo.cache
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.dll
+C:\s\Technical Architects\POC\CamundaAsync\AsyncPoweredAPI\AsyncPoweredAPI\obj\Debug\netcoreapp2.2\AsyncPoweredAPI.pdb

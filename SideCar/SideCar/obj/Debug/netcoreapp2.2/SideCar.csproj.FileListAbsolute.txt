@@ -1,0 +1,15 @@
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\obj\Debug\netcoreapp2.2\SideCar.csprojAssemblyReference.cache
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\obj\Debug\netcoreapp2.2\SideCar.AssemblyInfoInputs.cache
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\obj\Debug\netcoreapp2.2\SideCar.AssemblyInfo.cs
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\SideCar.deps.json
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\SideCar.runtimeconfig.json
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\SideCar.runtimeconfig.dev.json
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\SideCar.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\SideCar.pdb
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\obj\Debug\netcoreapp2.2\SideCar.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\obj\Debug\netcoreapp2.2\SideCar.pdb
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\IO.Swagger.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\RestSharp.dll
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\IO.Swagger.pdb
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\bin\Debug\netcoreapp2.2\RestSharp.xml
+C:\s\Technical Architects\POC\CamundaAsync\SideCar\SideCar\obj\Debug\netcoreapp2.2\SideCar.csproj.CopyComplete
